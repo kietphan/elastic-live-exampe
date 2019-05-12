@@ -1,0 +1,7 @@
+{
+  "name": "elive-simple-cast-test",
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  }
+}

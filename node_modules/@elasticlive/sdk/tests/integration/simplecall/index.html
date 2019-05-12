@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>elive-simple-call-test</title>
+    <script src="elive.min.js"></script>
+  </head>
+  <body>
+    <div id="root">
+      <p>Connecting to a new Room</p>
+    </div>
+    <div id="videos">
+      <video id="localVideo1" muted autoplay controls playsinline></video>
+      <video
+        id="remoteVideo1"
+        autoplay
+        controls
+        playsinline
+        webkit-playsinline
+      ></video>
+      <video id="localVideo2" muted autoplay controls playsinline></video>
+      <video
+        id="remoteVideo2"
+        autoplay
+        controls
+        playsinline
+        webkit-playsinline
+      ></video>
+    </div>
+    <div id="buttons">
+      <button id="call1">Call1</button>
+      <button id="close1" disabled="true">Close1</button>
+      <button id="call2">Call2</button>
+      <button id="close2" disabled="true">Close2</button>
+    </div>
+    <script></script>
+    <script src="app.js"></script>
+  </body>
+</html>
